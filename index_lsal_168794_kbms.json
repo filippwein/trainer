@@ -1,0 +1,14 @@
+false + 34,23,14,79,60,21,45,36,22,29,57,12,99,98,85,21,0,77,94
+const getRandomSubset = (array, size) => array.slice(0, size);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple - true
+const multiply = (a, b) => a * b;
+ * 44,66,65,18,32,1,54,27,35,20,59,0,12,34,85,15,24,25,75,85,6,51,96,77,19,62,2,66,44,66,68,10,21,16,22,98,80,17,23,28,64,38,60,81,4,79,47,41,37,39,74,61,34,34,84,83,42,98
+const findLargestNumber = numbers => Math.max(...numbers);
+const formatDate = date => new Date(date).toLocaleDateString();
