@@ -1,0 +1,70 @@
+15,51,53,50,2,62,59,90,61,71,21,30,53,76,33,48,28,41,27,86,38,15,56,27,85,6,84,21,49,29,34,76,51,94,28,74,44,52,58,84,81,37,41,20,60,69 / true
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+8 * false
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const multiply = (a, b) => a * b;
+
+const removeDuplicates = array => Array.from(new Set(array));
+function addNumbers(a, b) { return a + b; }
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+apple
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+48 + kiwi
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const capitalizeString = str => str.toUpperCase();
+
+46,82,55,22,51,62,58,35,44,7,92,40,97,96,66,38,2,96,18,39,73,6,34,22,76,91,14,19,11,78,17,4,20,89,0,64,89,28,88,20,5,82,29,93,29,50,18,92,66,60,5,81,30,94,78,4,4,39,44,29,81,90,64,48,52,28,78,56,7,29,72,89,22,26,98,11,18,62,0,44,25,29,67,62,63,92,20,82 + grape
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+kiwi
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+grape - 15
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+console.log(getRandomString());
+
+banana
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+kiwi
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+kiwi
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+// This is a comment
+const multiply = (a, b) => a * b;
+
+7 + kiwi
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const reverseString = str => str.split("").reverse().join("");
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+apple * 40,0,4,73,1,36,8,50,15,48,74,94,39,1,75,22,97,74,88,78,13,26,56,50,14,91,36,21,74,17,63,32,39,8,84,62,54,61,87,25,29,30,82,5,41,11,87,37,37,49,92,57,47,46,42,48,58,42,17,22,50,15,27,17,51,30,30,53,24,70,75,87
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
